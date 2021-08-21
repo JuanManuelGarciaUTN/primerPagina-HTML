@@ -1,0 +1,73 @@
+/*Estilo por defecto y constante en todos los elemtos*/
+* {
+    font-family: "Verdana";
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border: 0;
+    margin: auto;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    padding: 0px;   
+}
+
+body{
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    margin: 0px;
+}
+
+nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    padding: 0px;
+    margin: 0px;
+    background-color:  rgb(189, 105, 45) ;
+}
+
+footer{
+    padding: 0px;
+    margin: 0px;
+    margin-top: auto;
+    background-color: rgb(189, 105, 45);
+}
+footer img{
+    padding: 0.3em;
+    background-color:rgb(189, 105, 45); 
+    border-radius: 25px;
+}  
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}   
+
+.contenidoHeader, .contenidoFooter{
+    background-color:rgb(230, 190, 98);
+}
+
+.linkNav{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: rgb(240, 224, 195);
+    border-radius: 5px;
+}

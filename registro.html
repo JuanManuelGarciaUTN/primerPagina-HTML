@@ -1,107 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recetas Caseras - Cocina de Juan</title>
-    <link rel="icon" href="images/icono.ico">
-</head>
-<body>
-    <header style="background-color: rgb(224, 188, 101);">
-        <div style="background-color:chocolate ;">
-            <br>
-        </div>
-        <div style="text-align: center;">
-            <h1>Recetas Caseras</h1>
-            <h2>Cocina de Juan</h2>
-            <nav>
-                <b>
-                        <a href="https://ejercicio1garciajm.netlify.app">Recetas</a>
-                        :|:
-                        <a href="historia.html">Nuestra Historia</a>
-                        :|:
-                        <a href="locales.html">Nuestra Cocina</a>
-                        :|:
-                        <a href="contacto.html">Conectate con la Cocina</a>
-                        :|:
-                        <a href="registro.html">Registrate</a>
-                       
-                </b>
-            </nav>
-            <br>
-        </div>
-        <div style="background-color:chocolate ;">
-            <br>
-        </div>
-    </header>
-    <main>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recetas Caseras - Cocina de Juan</title>
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/styleRegistro.css">
+        <link rel="icon" href="images/icono.ico">
+    </head>
+    <body>
+        <header>
+            <div>
+                <br>
+            </div>
+            <div class="contenidoHeader">
+                <h1>Recetas Caseras</h1>
+                <h2>Cocina de Juan</h2>
+                <br>
+                <nav>
+                    <b>
+                            <a class="linkNav" href="https://ejercicio1garciajm.netlify.app">Recetas</a>
+                            :|:
+                            <a class="linkNav" href="historia.html">Nuestra Historia</a>
+                            :|:
+                            <a class="linkNav" href="locales.html">Nuestra Cocina</a>
+                            :|:
+                            <a class="linkNav" href="contacto.html">Conectate con la Cocina</a>
+                            :|:
+                            <a class="linkNav" href="registro.html">Registrate</a>
+                    </b>
+                </nav>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+        </header>
         <main>
-            <form action="show_data.html">
-                <div>
-                    <h2> <legend>Ingreso de Datos</legend> </h2>
-                    <br>
-                    <label for="nombre">Nombre: </label>
-                    <input required type="text" name="nombre" placeholder="Ingrese nombre..."> 
-                    <br>
-                    <br>
-                    <label for="apellido">Apellido:</label>
-                    <input required type="text" name="apellido" placeholder="Ingrese apellido...">
-                    <br>
-                    <br>
-                    <label for="direccion">Direccion:</label>
-                    <input required type="text" name="address" placeholder="Ingrese dirección...">
-                    <br>
-                    <br>
-                    <label for="ciudad">Ciudad: </label>
-                    <input required type="text" name="ciudad" placeholder="Ingrese ciudad...">
-                    <br>
-                    <br>
-                    <label for="codigoPostal">Código Postal:</label>
-                    <input type="number" name="codigoPostal" placeholder="Ingrese codigo postal..."> 
-                    <br>
-                    <br>
-                    <label for="fechaNacimiento">Fecha Nac:</label>
-                    <input type="date" name="fechaNacimiento" id="fechaNacimiento">
-                    <br>
-                    <br>
-                    <label for="sexo">Sexo: </label> 
-                        <input type="radio" name="sexo" id="sexo" value="h">Hombre
-                        <input type="radio" name="sexo" id="sexo" value="m">Mujer
-                        <input type="radio" name="sexo" id="sexo" value="x"> Otro 
+                <form action="show_data.html">
+                    <div class="formularioRegistro">
+                        <br>
+                        <legend>Ingreso de Datos</legend> 
+                        <br>
+                        <label for="nombre">Nombre: </label>
+                        <input required type="text" name="nombre" placeholder="Ingrese nombre..."> 
                         <br>
                         <br>
-                    <label for="estudios">Estudios: </label>
-                        <input type="checkbox" name="estudios" id="estudios" value="p"> Primario
-                        <input type="checkbox" name="estudios" id="estudios" value="s"> Secundario
-                        <input type="checkbox" name="estudios" id="estudios" value="t"> Terciario
-                        <input type="checkbox" name="estudios" id="estudios" value="u"> Universitario
-                    <br>
-                    <br>
-                    <input type="submit" value="Enviar">
-                    </div>
-                 </form>
-                 <br>
+                        <label for="apellido">Apellido:</label>
+                        <input required type="text" name="apellido" placeholder="Ingrese apellido...">
+                        <br>
+                        <br>
+                        <label for="direccion">Direccion:</label>
+                        <input required type="text" name="address" placeholder="Ingrese dirección...">
+                        <br>
+                        <br>
+                        <label for="ciudad">Ciudad: </label>
+                        <input required type="text" name="ciudad" placeholder="Ingrese ciudad...">
+                        <br>
+                        <br>
+                        <label for="codigoPostal">Código Postal:</label>
+                        <input type="number" name="codigoPostal" placeholder="Ingrese codigo postal..."> 
+                        <br>
+                        <br>
+                        <label for="fechaNacimiento">Fecha Nac:</label>
+                        <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+                        <br>
+                        <br>
+                        <label for="sexo">Sexo: </label> 
+                            <input type="radio" name="sexo" id="sexo" value="h">Hombre
+                            <input type="radio" name="sexo" id="sexo" value="m">Mujer
+                            <input type="radio" name="sexo" id="sexo" value="x"> Otro 
+                            <br>
+                            <br>
+                        <label for="estudios">Estudios: </label>
+                            <input type="checkbox" name="estudios" id="estudios" value="p"> Primario
+                            <input type="checkbox" name="estudios" id="estudios" value="s"> Secundario
+                            <input type="checkbox" name="estudios" id="estudios" value="t"> Terciario
+                            <input type="checkbox" name="estudios" id="estudios" value="u"> Universitario
+                        <br>
+                        <br>
+                        <input type="submit" value="Enviar">
+                        </div>
+                    </form>
         </main>
-    </main>
-
-    <footer>
-        <div style="background-color:chocolate ;">
-            <br>
-        </div>
-        <div align="center" style="background-color:rgb(224, 188, 101);">
-            <br>
-            <a title="Facebook" href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook" width="25" height="25"></a>
-            <a title="Twitter" href="https://www.Twitter.com"><img src="images/twitter.png" alt="Twitter" width="25" height="25"></a>
-            <a title="Instagram" href="https://www.Instagram.com"><img src="images/instagram.png" alt="Instagram" width="25" height="25"></a>
-            <br>
-            <b>Derechos registrados 2021 </b> 
-            <br><br>   
-        </div> 
-        <div style="background-color:chocolate ;">
-            <br>
-        </div>
-    </footer>
-
-</body>
+        <footer>
+            <div>
+                <br>
+            </div>
+            <div class="contenidoFooter">
+                <br>
+                <a title="Facebook" href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook" width="25" height="25"></a>
+                <a title="Twitter" href="https://www.Twitter.com"><img src="images/twitter.png" alt="Twitter" width="25" height="25"></a>
+                <a title="Instagram" href="https://www.Instagram.com"><img src="images/instagram.png" alt="Instagram" width="25" height="25"></a>
+                <br>
+                <b>Derechos registrados 2021 </b> 
+                <br><br>   
+            </div> 
+            <div>
+                <br>
+            </div>
+        </footer>
+    </body>
 </html>

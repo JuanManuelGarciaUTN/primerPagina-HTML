@@ -1,0 +1,24 @@
+.textoLinkReceta{
+    
+    padding: 0.5em;
+
+    background-color: rgb(240, 224, 195);
+    border-radius: 5px;
+    font-size: 0.8em;
+
+    border-style: solid    ;
+    border-color:rgb(189, 105, 45);
+    border-width: 0.3em;
+}
+
+.imgLinkReceta{
+    padding: 0.3em;
+    background-color:rgb(189, 105, 45); 
+    border-radius: 25px;
+
+}
+
+.recuadroReceta{
+    margin: auto;
+}
+

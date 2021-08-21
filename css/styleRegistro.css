@@ -1,0 +1,11 @@
+.formularioRegistro{
+
+    text-align: justify;
+    margin-left: 2%;
+}
+
+legend{
+    font-weight: 600;
+    font-size: 1.25em;
+    text-align: left;
+}

@@ -1,0 +1,10 @@
+p, ul, ol, li{
+    text-align: left;
+    margin-left: 2%;
+    font-size: 1.10em;
+}
+
+.subTitulo{
+    margin-top: 1.0em;
+    font-size: 1.25em;
+}
