@@ -1,0 +1,43 @@
+main {
+    margin: auto;
+}
+
+
+ul {
+    margin: auto;
+    list-style-type: none;
+    padding: 0, 1em;
+    overflow: hidden;
+  }
+  
+li {
+    margin: 1vw;
+    padding: 0.5em;
+    background-color:rgb(240, 224, 195);
+    border-radius: 5px;
+    float: left;
+}
+
+
+li img{
+    padding: 0.5em;
+    background-color:rgb(189, 105, 45); 
+    border-radius: 5px;
+    width: 30em;
+    height: 20.15em;
+}
+
+li iframe {
+    padding: 0.5em;
+    background-color:rgb(189, 105, 45); 
+    border-radius: 5px;
+    width: 30em;
+    height: 26em;
+}
+
+.ul-vertical li {
+    float: none;
+}
+
+
+
